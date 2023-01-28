@@ -18,7 +18,7 @@ const SearchHeader = () => {
         router.push(`/search?term=${term.trim()}&searchType=`)
     }
   return (
-    <header className='sticky top-0 bg-white sm:p-6 p-4'>
+    <header className='sticky top-0 bg-white sm:p-6 p-4 sm:w-full w-[477px]'>
      <div className=" flex items-center">
      <Image width="100" height="50" onClick={()=>router.push("/")}  className='cursor-pointer w-[100px] 
       sm:w-[120px] object-contain' src="https://www.citypng.com/public/uploads/preview/-11596994727l1jw5lvpmc.png" alt="logo"/>
