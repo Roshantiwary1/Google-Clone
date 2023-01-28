@@ -15,7 +15,7 @@ const SearchHeader = () => {
         e.preventDefault();
         const term = searchInputRef.current.value;
         if(!term.trim()){return}
-        router.push(`/search?term=${term.trim()}&searchType=`)
+        router.push(`/search?term=${term.trim()}`)
     }
   return (
     <header className='sticky top-0 bg-white sm:p-6 p-4'>

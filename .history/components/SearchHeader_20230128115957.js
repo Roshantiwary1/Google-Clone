@@ -5,7 +5,6 @@ import {HiMicrophone} from "react-icons/hi"
 import {RxCross2} from "react-icons/rx"
 import { useRouter } from 'next/router';
 import User from './User';
-import SearchHeaderOptions from './SearchHeaderOptions';
 
 const SearchHeader = () => {
     const router = useRouter()
@@ -15,11 +14,11 @@ const SearchHeader = () => {
         e.preventDefault();
         const term = searchInputRef.current.value;
         if(!term.trim()){return}
-        router.push(`/search?term=${term.trim()}&searchType=`)
+        router.push(`/search?term=${term.trim()}`)
     }
   return (
-    <header className='sticky top-0 bg-white sm:p-6 p-4'>
-     <div className=" flex items-center">
+    <header className='sticky top-0 bg-white flex items-center sm:p-6 p-4'>
+     <div className="">
      <Image width="100" height="50" onClick={()=>router.push("/")}  className='cursor-pointer w-[100px] 
       sm:w-[120px] object-contain' src="https://www.citypng.com/public/uploads/preview/-11596994727l1jw5lvpmc.png" alt="logo"/>
 
@@ -32,7 +31,6 @@ const SearchHeader = () => {
       <User className="ml-auto"/>
      </div>
 
-        <SearchHeaderOptions/>
       
     </header>
   )
