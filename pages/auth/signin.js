@@ -9,7 +9,7 @@ const signin = ({Providers}) => {
       <div className="mt-7 flex justify-center">
         {Object.values(Providers).map((provider)=>(
             <div key={provider.name} className="flex justify-center flex-col items-center">
-                <img className='w-[350px] object-cover' src="https://www.citypng.com/public/uploads/preview/-11596994727l1jw5lvpmc.png" alt="logo"/>
+                <Image width="350" height="140" className='w-[350px] object-cover' src="https://www.citypng.com/public/uploads/preview/-11596994727l1jw5lvpmc.png" alt="logo"/>
                 <p className='text-sm italic mb-10 text-center text-gray-600'>this app is created for learning purposes</p>
                 <button onClick={()=>(signIn(provider.id , {callbackUrl:"/"}))} className="bg-blue-500 rounded-lg text-white p-3 hover:bg-blue-600">SignIn with {provider.name}</button>
             </div>
