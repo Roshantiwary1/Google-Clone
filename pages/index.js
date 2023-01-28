@@ -18,9 +18,7 @@ export default function Home() {
      {/* Body */}
       <Body/>
      {/* Footer */}
-     <div className='fixed bottom-0 whitespace-nowrap left-[50%] translate-x-[-50%] text-sm text-gray-500'>
-      <p>copyright &copy; {new Date().getFullYear()} Roshan Tiwary</p>
-     </div>
+     
       </main>
     </>
   )
