@@ -29,7 +29,7 @@ const SearchHeader = () => {
             <HiMicrophone className='hidden sm:inline-flex text-blue-500 cursor-pointer text-lg mr-3'/>
             <FaSearch onClick={search} className='hidden sm:inline-flex text-blue-500 cursor-pointer'/>
       </form>
-      <User className="ml-auto"/>
+      <User className="ml-auto "/>
      </div>
 
         <SearchHeaderOptions/>
