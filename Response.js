@@ -1,347 +1,252 @@
-export default (
-    {
-        "kind": "customsearch#search",
-        "url": {
-            "type": "application/json",
-            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
-        },
-        "queries": {
-            "request": [
-                {
-                    "title": "Google Custom Search - name",
-                    "totalResults": "23230000000",
-                    "searchTerms": "name",
-                    "count": 10,
-                    "startIndex": 1,
-                    "inputEncoding": "utf8",
-                    "outputEncoding": "utf8",
-                    "safe": "off",
-                    "cx": "159e229815bb04f0c"
-                }
-            ],
-            "nextPage": [
-                {
-                    "title": "Google Custom Search - name",
-                    "totalResults": "23230000000",
-                    "searchTerms": "name",
-                    "count": 10,
-                    "startIndex": 11,
-                    "inputEncoding": "utf8",
-                    "outputEncoding": "utf8",
-                    "safe": "off",
-                    "cx": "159e229815bb04f0c"
-                }
-            ]
-        },
-        "context": {
-            "title": "go-v1"
-        },
-        "searchInformation": {
-            "searchTime": 0.558085,
-            "formattedSearchTime": "0.56",
-            "totalResults": "23230000000",
-            "formattedTotalResults": "23,230,000,000"
-        },
-        "items": [
+export default {
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
             {
-                "kind": "customsearch#result",
-                "title": "Name.com | Domain Names, Registration, Websites & Hosting",
-                "htmlTitle": "<b>Name</b>.com | Domain <b>Names</b>, Registration, Websites &amp; Hosting",
-                "link": "https://www.name.com/",
-                "displayLink": "www.name.com",
-                "snippet": "Name.com is your complete source for domain names, hosting and other online presence solutions.",
-                "htmlSnippet": "<b>Name</b>.com is your complete source for domain <b>names</b>, hosting and other online presence solutions.",
-                "cacheId": "KeK5KUAF9poJ",
-                "formattedUrl": "https://www.name.com/",
-                "htmlFormattedUrl": "https://www.<b>name</b>.com/",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTMy4quO5swAvqcHepUCOClm6-RMz4DycPMpk9I8__D",
-                            "width": "436",
-                            "height": "116"
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "og:image": "/media/ogimage.png",
-                            "copyright": "Name.com",
-                            "viewport": "width=device-width, initial-scale=1",
-                            "author": "Name.com",
-                            "csrf-token": "9a1a81929e9355ef170a15fcd3fc864b6b29c208d4e50bc34e2876f989c60fbc1b72693930c72852d0eaa2cd903948a94d6d98a98b35ad36ae2beb7e268869e9",
-                            "rating": "general",
-                            "distribution": "global"
-                        }
-                    ],
-                    "cse_image": [
-                        {}
-                    ]
-                }
-            },
+                "title": "Google Custom Search - Nextjs",
+                "totalResults": "142000000",
+                "searchTerms": "Nextjs",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "159e229815bb04f0c",
+                "searchType": "image"
+            }
+        ],
+        "nextPage": [
             {
-                "kind": "customsearch#result",
-                "title": "Behind the Name: The Meaning and History of First Names",
-                "htmlTitle": "Behind the <b>Name</b>: The Meaning and History of First <b>Names</b>",
-                "link": "https://www.behindthename.com/",
-                "displayLink": "www.behindthename.com",
-                "snippet": "Find the meaning, history and popularity of given names from around the world. Get ideas for baby names or discover your own name's history.",
-                "htmlSnippet": "Find the meaning, history and popularity of given <b>names</b> from around the world. Get ideas for baby <b>names</b> or discover your own <b>name&#39;s</b> history.",
-                "cacheId": "88Uv2VS99BQJ",
-                "formattedUrl": "https://www.behindthename.com/",
-                "htmlFormattedUrl": "https://www.behindthe<b>name</b>.com/",
-                "pagemap": {
-                    "metatags": [
-                        {
-                            "viewport": "width=device-width",
-                            "author": "Mike Campbell",
-                            "fb:page_id": "171755776192813"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Name.com Account Log In",
-                "htmlTitle": "<b>Name</b>.com Account Log In",
-                "link": "https://www.name.com/account/login",
-                "displayLink": "www.name.com",
-                "snippet": "Log into your Name.com account to manage or purchase domains, web hosting, email, SSL, and more.",
-                "htmlSnippet": "Log into your <b>Name</b>.com account to manage or purchase domains, web hosting, email, SSL, and more.",
-                "cacheId": "6pJ49NsKTq8J",
-                "formattedUrl": "https://www.name.com/account/login",
-                "htmlFormattedUrl": "https://www.<b>name</b>.com/account/login",
-                "pagemap": {
-                    "metatags": [
-                        {
-                            "og:image": "/media/ogimage.png",
-                            "copyright": "Name.com",
-                            "viewport": "width=device-width, initial-scale=1",
-                            "author": "Name.com",
-                            "csrf-token": "8de9cc728b7fb7c36b2dd696ba21f204ad5a5090237ad00e5553df9de3fdb27811d470f107611099564775718c949c5a3ff0d83dc5cc6ac2d06a56df0e53b97f",
-                            "rating": "general",
-                            "distribution": "global"
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "/media/ogimage.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Federal Inmates By Name - BOP",
-                "htmlTitle": "Federal Inmates By Name - BOP",
-                "link": "https://www.bop.gov/mobile/find_inmate/byname.jsp",
-                "displayLink": "www.bop.gov",
-                "snippet": "Find an inmate. Find By Number; Find By Name. First Name. Middle Name. Last Name. Race. American Indian, Asian, Black, White.",
-                "htmlSnippet": "Find an inmate. Find By Number; Find By <b>Name</b>. First <b>Name</b>. Middle <b>Name</b>. Last <b>Name</b>. Race. American Indian, Asian, Black, White.",
-                "cacheId": "HY3K1dzwTx8J",
-                "formattedUrl": "https://www.bop.gov/mobile/find_inmate/byname.jsp",
-                "htmlFormattedUrl": "https://www.bop.gov/mobile/find_inmate/by<b>name</b>.jsp",
-                "pagemap": {
-                    "metatags": [
-                        {
-                            "msapplication-tilecolor": "#001e3b",
-                            "msvalidate.01": "4B697AD64CCE705D9DA1C29520297970",
-                            "viewport": "target-densitydpi=160dpi, width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0",
-                            "apple-mobile-web-app-capable": "yes",
-                            "msapplication-tileimage": "/tileicon.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Name - Wikipedia",
-                "htmlTitle": "<b>Name</b> - Wikipedia",
-                "link": "https://en.wikipedia.org/wiki/Name",
-                "displayLink": "en.wikipedia.org",
-                "snippet": "A name is a term used for identification by an external observer. They can identify a class or category of things, or a single thing, either uniquely, ...",
-                "htmlSnippet": "A <b>name</b> is a term used for identification by an external observer. They can identify a class or category of things, or a single thing, either uniquely,&nbsp;...",
-                "cacheId": "dmIe8coecPsJ",
-                "formattedUrl": "https://en.wikipedia.org/wiki/Name",
-                "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Name</b>",
-                "pagemap": {
-                    "metatags": [
-                        {
-                            "referrer": "origin",
-                            "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Balinese_ground_zero.JPG/1200px-Balinese_ground_zero.JPG",
-                            "theme-color": "#eaecf0",
-                            "og:image:width": "1200",
-                            "og:type": "website",
-                            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
-                            "og:title": "Name - Wikipedia",
-                            "og:image:height": "900",
-                            "format-detection": "telephone=no"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Search for Corporations, Limited Liability Companies, Limited ...",
-                "htmlTitle": "Search for Corporations, Limited Liability Companies, Limited ...",
-                "link": "https://search.sunbiz.org/Inquiry/CorporationSearch/ByName",
-                "displayLink": "search.sunbiz.org",
-                "snippet": "Search for Corporations, Limited Liability Companies, Limited Partnerships, and Trademarks by Name. Entity Name: Other Search Options. Search by:.",
-                "htmlSnippet": "Search for Corporations, Limited Liability Companies, Limited Partnerships, and Trademarks by <b>Name</b>. Entity <b>Name</b>: Other Search Options. Search by:.",
-                "cacheId": "KDVrOxOILZQJ",
-                "formattedUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/ByName",
-                "htmlFormattedUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/By<b>Name</b>",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGitLhva-UbiyAywiPJnygXVv0rwL6PKFs2bHaAKjXypzrLdEW-Athog",
-                            "width": "438",
-                            "height": "115"
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://search.sunbiz.org/Content/images/logo.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Function.prototype.name - JavaScript | MDN",
-                "htmlTitle": "Function.prototype.<b>name</b> - JavaScript | MDN",
-                "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name",
-                "displayLink": "developer.mozilla.org",
-                "snippet": "Dec 13, 2022 ... The name property of a Function instance indicates the function's name as specified when it was created, or it may be either anonymous or ...",
-                "htmlSnippet": "Dec 13, 2022 <b>...</b> The <b>name</b> property of a Function instance indicates the function&#39;s <b>name</b> as specified when it was created, or it may be either anonymous or&nbsp;...",
-                "cacheId": "YveFe0jPsCkJ",
-                "formattedUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/.../name",
-                "htmlFormattedUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/.../<b>name</b>",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzATynhxJ3xCKxahvxBUUWVIDDr0xDYe9RZ0zbnEA0xRNPGYwaPVEQMK0",
-                            "width": "300",
-                            "height": "168"
-                        }
-                    ],
-                    "BreadcrumbList": [
-                        {}
-                    ],
-                    "metatags": [
-                        {
-                            "og:image": "https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png",
-                            "theme-color": "#ffffff",
-                            "twitter:card": "summary_large_image",
-                            "viewport": "width=device-width,initial-scale=1",
-                            "og:title": "Function.prototype.name - JavaScript | MDN",
-                            "og:locale": "en-US",
-                            "position": "1",
-                            "og:url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name",
-                            "og:description": "The name property of a Function instance indicates the function's name as specified when it was created, or it may be either anonymous or '' (an empty string) for functions created anonymously."
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Name Change for U.S. Passport or Correct a Printing or Data Error",
-                "htmlTitle": "<b>Name</b> Change for U.S. Passport or Correct a Printing or Data Error",
-                "link": "https://travel.state.gov/content/travel/en/passports/have-passport/change-correct.html",
-                "displayLink": "travel.state.gov",
-                "snippet": "Change or Correct a Passport. Do you need to correct or update your U.S. passport due to a name change, data error, or printing error?",
-                "htmlSnippet": "Change or Correct a Passport. Do you need to correct or update your U.S. passport due to a <b>name</b> change, data error, or printing error?",
-                "cacheId": "zH6uzlVe5JIJ",
-                "formattedUrl": "https://travel.state.gov/content/travel/en/passports/.../change-correct.html",
-                "htmlFormattedUrl": "https://travel.state.gov/content/travel/en/passports/.../change-correct.html",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTStTC4wUYO7jKtGOCM-nPg721cS0FqqDwmY9fu3SFdlA",
-                            "width": "262",
-                            "height": "193"
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "og:image": "/content/dam/tsg-global/tsg_link_img_display.jpg",
-                            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
-                            "og:description": "Information about correcting, fixing, or updating your U.S. passport for a name change, gender marker change, data error, or printing error."
-                        }
-                    ],
-                    "cse_image": [
-                        {}
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Name a Snowplow contest - MnDOT",
-                "htmlTitle": "<b>Name</b> a Snowplow contest - MnDOT",
-                "link": "https://www.dot.state.mn.us/nameasnowplow/",
-                "displayLink": "www.dot.state.mn.us",
-                "snippet": "Voting is now open! After more than 10,000 name ideas were submitted, we've narrowed the list down to 60 finalists – and now it's time to pick your favorites ...",
-                "htmlSnippet": "Voting is now open! After more than 10,000 <b>name</b> ideas were submitted, we&#39;ve narrowed the list down to 60 finalists – and now it&#39;s time to pick your favorites&nbsp;...",
-                "cacheId": "a9BJpyDubi8J",
-                "formattedUrl": "https://www.dot.state.mn.us/nameasnowplow/",
-                "htmlFormattedUrl": "https://www.dot.state.mn.us/<b>name</b>asnowplow/",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwqpZKT1KbW7x0traVqVFPbELDtvafcX2IQ0pv2CAs3_1fzsuINbqXlCE",
-                            "width": "259",
-                            "height": "194"
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "msapplication-config": "/browserconfig.xml",
-                            "og:image": "https://www.dot.state.mn.us/nameasnowplow/images/vote-now.png",
-                            "theme-color": "#003660",
-                            "og:type": "website",
-                            "twitter:card": "summary_large_image",
-                            "twitter:title": "Name a Snowplow contest - MnDOT",
-                            "handheldfriendly": "true",
-                            "og:fb:app_id": "2962457693857133",
-                            "og:title": "Name a Snowplow contest - MnDOT",
-                            "og:description": "We’ve narrowed the list down to 60 finalists! Vote now!",
-                            "twitter:image": "https://www.dot.state.mn.us/nameasnowplow/images/vote-now.png",
-                            "twitter:site": "@mndot",
-                            "viewport": "width=device-width, initial-scale=1",
-                            "twitter:description": "We’ve narrowed the list down to 60 finalists! Vote now!",
-                            "og:url": "https://www.dot.state.mn.us/nameasnowplow"
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://www.dot.state.mn.us/nameasnowplow/images/vote-now.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Business Name Search - Business Entities Online - S.C. Secretary of ...",
-                "htmlTitle": "Business <b>Name</b> Search - Business Entities Online - S.C. Secretary of ...",
-                "link": "https://businessfilings.sc.gov/BusinessFiling/Entity/Search",
-                "displayLink": "businessfilings.sc.gov",
-                "snippet": "To Search. Enter the business name of the company you wish to view and click \"Search.\" Find the business in the results below and click to view the official ...",
-                "htmlSnippet": "To Search. Enter the business <b>name</b> of the company you wish to view and click &quot;Search.&quot; Find the business in the results below and click to view the official&nbsp;...",
-                "cacheId": "jrCexGgzvloJ",
-                "formattedUrl": "https://businessfilings.sc.gov/BusinessFiling/Entity/Search",
-                "htmlFormattedUrl": "https://businessfilings.sc.gov/BusinessFiling/Entity/Search",
-                "pagemap": {
-                    "metatags": [
-                        {
-                            "viewport": "width=device-width"
-                        }
-                    ]
-                }
+                "title": "Google Custom Search - Nextjs",
+                "totalResults": "142000000",
+                "searchTerms": "Nextjs",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "159e229815bb04f0c",
+                "searchType": "image"
             }
         ]
-    }
-)
+    },
+    "context": {
+        "title": "go-v1"
+    },
+    "searchInformation": {
+        "searchTime": 0.43051,
+        "formattedSearchTime": "0.43",
+        "totalResults": "142000000",
+        "formattedTotalResults": "142,000,000"
+    },
+    "spelling": {
+        "correctedQuery": "Next Js",
+        "htmlCorrectedQuery": "<b><i>Next Js</i></b>"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Different forms of Pre-rendering in NextJS - GeeksforGeeks",
+            "htmlTitle": "Different forms of Pre-rendering in <b>NextJS</b> - GeeksforGeeks",
+            "link": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220311094050/User-send-a-request-to.png",
+            "displayLink": "www.geeksforgeeks.org",
+            "snippet": "Different forms of Pre-rendering in NextJS - GeeksforGeeks",
+            "htmlSnippet": "Different forms of Pre-rendering in <b>NextJS</b> - GeeksforGeeks",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://www.geeksforgeeks.org/different-forms-of-pre-rendering-in-nextjs/",
+                "height": 628,
+                "width": 1000,
+                "byteSize": 89748,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQll2w98HE9S_Ngn2XP9aNIZup0aMJn71yt_hHL365thnodYMFdzsZWRBg&s",
+                "thumbnailHeight": 94,
+                "thumbnailWidth": 149
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "File:Nextjs-logo.svg - Wikimedia Commons",
+            "htmlTitle": "File:<b>Nextjs</b>-logo.svg - Wikimedia Commons",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png",
+            "displayLink": "commons.wikimedia.org",
+            "snippet": "File:Nextjs-logo.svg - Wikimedia Commons",
+            "htmlSnippet": "File:<b>Nextjs</b>-logo.svg - Wikimedia Commons",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://commons.wikimedia.org/wiki/File:Nextjs-logo.svg",
+                "height": 719,
+                "width": 1200,
+                "byteSize": 19632,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSpYyzRAdO9xS0Jno-qUkHnuksI2uDE2wRCEHbA1dxL-86cSTGHc7wBs&s",
+                "thumbnailHeight": 90,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Create a Next.js App | Learn Next.js",
+            "htmlTitle": "Create a <b>Next.js</b> App | Learn <b>Next.js</b>",
+            "link": "https://nextjs.org/static/twitter-cards/learn-twitter.png",
+            "displayLink": "nextjs.org",
+            "snippet": "Create a Next.js App | Learn Next.js",
+            "htmlSnippet": "Create a <b>Next.js</b> App | Learn <b>Next.js</b>",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://nextjs.org/learn/basics/create-nextjs-app",
+                "height": 882,
+                "width": 1686,
+                "byteSize": 149441,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNLXVnqDtPYUASlSXVAXmPrqybRQgnJbMUtTNGMfN_CozKu_m7Xm32zQ&s",
+                "thumbnailHeight": 78,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Next.js Practical Introduction Pt. 2: Styling and Theming",
+            "htmlTitle": "<b>Next.js</b> Practical Introduction Pt. 2: Styling and Theming",
+            "link": "https://images.ctfassets.net/23aumh6u8s0i/c04wENP3FnbevwdWzrePs/1e2739fa6d0aa5192cf89599e009da4e/nextjs",
+            "displayLink": "auth0.com",
+            "snippet": "Next.js Practical Introduction Pt. 2: Styling and Theming",
+            "htmlSnippet": "<b>Next.js</b> Practical Introduction Pt. 2: Styling and Theming",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://auth0.com/blog/next-js-practical-introduction-for-react-developers-part-2/",
+                "height": 1056,
+                "width": 1176,
+                "byteSize": 66090,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL6cvQlhUw7z30PrdkBzq3w9cuaExEiJd9Kc0ZABBAoQFQKN1pu0SvVw0&s",
+                "thumbnailHeight": 135,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "GitHub - wutali/nextjs-netlify-blog-template: Next.js blogging ...",
+            "htmlTitle": "GitHub - wutali/<b>nextjs</b>-netlify-blog-template: <b>Next.js</b> blogging ...",
+            "link": "https://repository-images.githubusercontent.com/284910441/d8efc300-e2ae-11ea-9596-b01e3844e39d",
+            "displayLink": "github.com",
+            "snippet": "GitHub - wutali/nextjs-netlify-blog-template: Next.js blogging ...",
+            "htmlSnippet": "GitHub - wutali/<b>nextjs</b>-netlify-blog-template: <b>Next.js</b> blogging ...",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://github.com/wutali/nextjs-netlify-blog-template",
+                "height": 1170,
+                "width": 2048,
+                "byteSize": 65304,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9WVBy5nV7jRJWa8Pv-uFN1p9mYUajHySTTragNk23afx0eawXl6Kppg&s",
+                "thumbnailHeight": 86,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Different forms of Pre-rendering in NextJS - GeeksforGeeks",
+            "htmlTitle": "Different forms of Pre-rendering in <b>NextJS</b> - GeeksforGeeks",
+            "link": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220311094051/user-can-now-Interact.png",
+            "displayLink": "www.geeksforgeeks.org",
+            "snippet": "Different forms of Pre-rendering in NextJS - GeeksforGeeks",
+            "htmlSnippet": "Different forms of Pre-rendering in <b>NextJS</b> - GeeksforGeeks",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://www.geeksforgeeks.org/different-forms-of-pre-rendering-in-nextjs/",
+                "height": 628,
+                "width": 1000,
+                "byteSize": 96570,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCOht3yzM5QnoyLygtZYn8priqkToxPt5u5_lmj6mwg2BZCElTUhw7IEQ&s",
+                "thumbnailHeight": 94,
+                "thumbnailWidth": 149
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "A complete guide to learn Next.js. Why should you learn next.js in ...",
+            "htmlTitle": "A complete guide to learn <b>Next.js</b>. Why should you learn <b>next.js</b> in ...",
+            "link": "https://miro.medium.com/max/1400/1*gxOA6-EF8P8vnYdk3Bc9bg.png",
+            "displayLink": "medium.com",
+            "snippet": "A complete guide to learn Next.js. Why should you learn next.js in ...",
+            "htmlSnippet": "A complete guide to learn <b>Next.js</b>. Why should you learn <b>next.js</b> in ...",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://medium.com/geekculture/why-should-you-learn-next-js-in-2021-what-are-the-benefits-8292d79bc50c",
+                "height": 838,
+                "width": 1400,
+                "byteSize": 31310,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUApjZHHgzw6Ar-tH5HFwk4tfolh7odebXIfMssOdHIn5WDVDlXqNG7Q&s",
+                "thumbnailHeight": 90,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Tutorial: Deploy static-rendered Next.js websites on Azure Static ...",
+            "htmlTitle": "Tutorial: Deploy static-rendered <b>Next.js</b> websites on Azure Static ...",
+            "link": "https://learn.microsoft.com/en-us/azure/static-web-apps/media/deploy-nextjs/start-nextjs-app.png",
+            "displayLink": "learn.microsoft.com",
+            "snippet": "Tutorial: Deploy static-rendered Next.js websites on Azure Static ...",
+            "htmlSnippet": "Tutorial: Deploy static-rendered <b>Next.js</b> websites on Azure Static ...",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs-static-export",
+                "height": 1916,
+                "width": 2770,
+                "byteSize": 217608,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQI8MrA-XiDbw7plGpZZbZ-FoM8Wehxnw-9CPpW5Y8ckDXqNz58zVOHgg&s",
+                "thumbnailHeight": 104,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "At Next.js Conf 2022, learn to build better and scale faster – Vercel",
+            "htmlTitle": "At <b>Next.js</b> Conf 2022, learn to build better and scale faster – Vercel",
+            "link": "https://vercel.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F2LTO3hWQ4NdnedxuYZfwxa%2F74c017aa157d7986479f1e940448ef51%2FLogotype.png&w=3840&q=75",
+            "displayLink": "vercel.com",
+            "snippet": "At Next.js Conf 2022, learn to build better and scale faster – Vercel",
+            "htmlSnippet": "At <b>Next.js</b> Conf 2022, learn to build better and scale faster – Vercel",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://vercel.com/blog/nextjs-conf-2022",
+                "height": 1800,
+                "width": 2880,
+                "byteSize": 157193,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvf1eZyCB6CU7rRD2fBD0YPqpeR2AIazFBv3hjIrBDp8WqCoGt74fj9w&s",
+                "thumbnailHeight": 94,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "nextjs · GitHub Topics · GitHub",
+            "htmlTitle": "<b>nextjs</b> · GitHub Topics · GitHub",
+            "link": "https://repository-images.githubusercontent.com/377044244/dbf0fe00-cd6f-11eb-9e1e-b8b1031c0b6a",
+            "displayLink": "github.com",
+            "snippet": "nextjs · GitHub Topics · GitHub",
+            "htmlSnippet": "<b>nextjs</b> · GitHub Topics · GitHub",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://github.com/topics/nextjs?l=shell&o=asc&s=forks",
+                "height": 571,
+                "width": 1000,
+                "byteSize": 14345,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH4N0dCaH9gz6qCqcXuFk0wih6t-MiyAkrZ6b0fWLRCpvLs3urc27Nfw&s",
+                "thumbnailHeight": 85,
+                "thumbnailWidth": 149
+            }
+        }
+    ]
+}
